@@ -3,10 +3,10 @@ from datetime import datetime, timedelta
 import pymysql
 
 conn = pymysql.connect(
-    host="localhost",
-    user="test",
-    password="1234qwer.",
-    database="titanDevOps",
+    host="YOUR_HOST",
+    user="YOUR_ACCOUNT",
+    password="YOUR_PASSWORD",
+    database="YOUR_DATABASE",
 )
 cursor = conn.cursor(pymysql.cursors.DictCursor)
 
